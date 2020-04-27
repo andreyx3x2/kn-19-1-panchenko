@@ -4,10 +4,10 @@ using namespace std;
 float cel,fahr;
 int main()
 {setlocale(LC_ALL, "rus");
-cout <<"Ââåäèòå òåìïåðàòóðó â öåëüñèÿõ: ";
+cout <<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚ÐµÐ¼Ð¿ÐµÑ€Ð°Ñ‚ÑƒÑ€Ñƒ Ð² Ñ†ÐµÐ»ÑŒÑÐ¸ÑÑ…: ";
 cin >> cel;
 fahr = cel*1.8+32;
-cout <<"Òåìïåðàòóðà â ôàðèíãåéòàõ:  "<<fahr;
+cout <<"Ð¢ÐµÐ¼Ð¿ÐµÑ€Ð°Ñ‚ÑƒÑ€Ð° Ð² Ñ„Ð°Ñ€Ð¸Ð½Ð³ÐµÐ¹Ñ‚Ð°Ñ…:  "<<fahr;
 getch();
 return 0;
 }
