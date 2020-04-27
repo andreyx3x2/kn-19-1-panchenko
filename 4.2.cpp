@@ -13,7 +13,7 @@ void zero_small(int &a, int &b)
  
  { setlocale (LC_ALL, "rus");
   int a,b;
- cout<<"Ââåäèòå äâà ÷èñëà"<<endl;
+ cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð°"<<endl;
  cin>>a>>b;
   zero_small(a,b);
   cout<<a<<"  "<<b;
