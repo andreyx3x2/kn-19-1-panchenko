@@ -8,7 +8,7 @@ void left(int A[4][4], int  size)
 	for (int i = 0, j = 0;i < size;i++, j++)
 
 		sum = sum + A[i][j];
-	cout << "Ñóììà ëåâîé äèàãîíàëè:  " << sum<<endl;
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° Ð»ÐµÐ²Ð¾Ð¹ Ð´Ð¸Ð°Ð³Ð¾Ð½Ð°Ð»Ð¸:  " << sum<<endl;
 }
 void right(int A[4][4], int size)
 {
@@ -16,7 +16,7 @@ void right(int A[4][4], int size)
 	int sum = 0;
 	for (int i = size - 1, j = 0; i >= 0; i--, j++)
 		sum = sum + A[i][j];
-	cout << "Ñóìà ïðàâîé äèàãîíàëè:  " << sum<<endl;
+	cout << "Ð¡ÑƒÐ¼Ð° Ð¿Ñ€Ð°Ð²Ð¾Ð¹ Ð´Ð¸Ð°Ð³Ð¾Ð½Ð°Ð»Ð¸:  " << sum<<endl;
 
 
 }
