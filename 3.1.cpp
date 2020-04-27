@@ -6,14 +6,11 @@ using namespace std;
 double a,b,c,p,s;
 int main ()
 {  setlocale (LC_ALL, "rus");
-  cout<<"Ââåäèòå ñòîðîíû òðåóãîëüíèêà\n";
+  cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚Ð¾Ñ€Ð¾Ð½Ñ‹ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°\n";
   cin>>a>>b>>c;
   p = (a+b+c)/2;
   s = sqrt(p*(p-a)*(p-b)*(p-c));
   cout<<s;
   getch();
   return 0; 
-
-
-
 }
