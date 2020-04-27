@@ -8,7 +8,7 @@ float i;
 float sum=0;
 int main()
 { setlocale (LC_ALL, "rus");
-cout<< "1 + 1/2 + 1/3 + 1/4 + 1/5 + ... + 1/n       Ââåäèòå n";
+cout<< "1 + 1/2 + 1/3 + 1/4 + 1/5 + ... + 1/n       Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ n";
 cin>>n;
 for (i=1; i<=n; i++ )             
  {sum=sum+1/i;
