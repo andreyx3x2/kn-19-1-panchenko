@@ -4,12 +4,12 @@ using namespace std;
 int a,m,y,d;
 int main ()
 { setlocale (LC_ALL, "rus");
-cout<<"Ââåäèòå ÷èñëî äíåé";
+cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð´Ð½ÐµÐ¹";
 cin>> a;
 y = a/365;
 m = (a-y*365)/31;
 d = a-y*365-m*31;
-cout <<y<<" ëåò "<<m<<" ìåñÿöåâ "<<d<<" äíåé ";
+cout <<y<<" Ð»ÐµÑ‚ "<<m<<" Ð¼ÐµÑÑÑ†ÐµÐ² "<<d<<" Ð´Ð½ÐµÐ¹ ";
 getch();
 return 0;
 }
