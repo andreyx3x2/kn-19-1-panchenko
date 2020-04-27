@@ -6,7 +6,7 @@ int main()
     setlocale(LC_ALL, "rus");
     int arr[10], i, sum = 0, b = 0;
     float aver;
-    cout << "Ââåäèòå ýëåìåíòû ìàññèâà:\n";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ Ð¼Ð°ÑÑÐ¸Ð²Ð°:\n";
     for(i=0; i<10; i++)
         cin >> arr[i];
     for(i=0; i<10; i++)
@@ -18,8 +18,8 @@ int main()
         }
     }
     aver = (float)sum/b;
-    cout << "Ñóììà ýëåìåíòîâ:  " <<sum << endl;
-    cout << "Ñðåäíåå àðèôìåòè÷åñêîå ðàâíî: " << aver << endl;
+    cout << "Ð¡ÑƒÐ¼Ð¼Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð²:  " <<sum << endl;
+    cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ Ñ€Ð°Ð²Ð½Ð¾: " << aver << endl;
     getch();
 	return 0;
 }
