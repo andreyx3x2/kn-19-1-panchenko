@@ -8,7 +8,7 @@ int main ()
 setlocale (LC_ALL, "rus");
  srand ( time(NULL) );                 
  int secret = rand() % 91 + 10;  
- cout<< "Ñëó÷àéíîå ÷èñëî:  " <<secret<<"\n";
+ cout<< "Ð¡Ð»ÑƒÑ‡Ð°Ð¹Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:  " <<secret<<"\n";
   
   
   getch();
