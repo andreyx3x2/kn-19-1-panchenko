@@ -4,10 +4,10 @@ using namespace std;
 int a,b,c;
 int main()
 { setlocale(LC_ALL, "rus");
-cout<<"Ââåäèòå äâà ÷èñëà\n";
+cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð°\n";
 cin >>a >>b;
 c = a+b;
-cout<< "Ñóìà äâóõ ÷èñåë: ";
+cout<< "Ð¡ÑƒÐ¼Ð° Ð´Ð²ÑƒÑ… Ñ‡Ð¸ÑÐµÐ»: ";
 cout<< c;
 getch();
 
