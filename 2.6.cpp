@@ -5,7 +5,7 @@ using namespace std;
 int  i; int sum =0;
 int main()
 { setlocale (LC_ALL, "rus");
-cout<<"Ââåäèòå ÷èñëî:  ";
+cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾:  ";
 cin>>i;
    while (i!=0)
    {
@@ -13,7 +13,7 @@ cin>>i;
     i=i/10;
 
    }
-cout<<"Ñóììà öèôð ÷èñëà:    "<<sum;
+cout<<"Ð¡ÑƒÐ¼Ð¼Ð° Ñ†Ð¸Ñ„Ñ€ Ñ‡Ð¸ÑÐ»Ð°:    "<<sum;
 
 getch();
 return 0;
