@@ -6,14 +6,14 @@ float a,b,c,d,D,x1,x2;
 int main()
 { setlocale(LC_ALL, "rus");
 cout << "ax2 + bx + c=0\n";
-cout << "Ââåäèòå a,b,c\n";
+cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ a,b,c\n";
 cin>>a>>b>>c;
 d=b*b-4*a*c;
 D=sqrt(d);
 x1=-b+D;
 x2=-b-D;
-if (d<0) {cout<<"Êîðíåé íå ñóùåñòâóåò";}
-else {cout<<"Êîðåíü 1: "<<x1<<"\nÊîðåíü 2:  "<<x2;}
+if (d<0) {cout<<"ÐšÐ¾Ñ€Ð½ÐµÐ¹ Ð½Ðµ ÑÑƒÑ‰ÐµÑÑ‚Ð²ÑƒÐµÑ‚";}
+else {cout<<"ÐšÐ¾Ñ€ÐµÐ½ÑŒ 1: "<<x1<<"\nÐšÐ¾Ñ€ÐµÐ½ÑŒ 2:  "<<x2;}
 getch();
 return 0;
 
