@@ -5,7 +5,7 @@ int main ()
 { setlocale (LC_ALL, "rus");
 int arr [8];
 for (int i=0; i<8; i++)
-{   cout << "Ââåäèòå ýëåìåíò ìàññèâà\n";
+{   cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ Ð¼Ð°ÑÑÐ¸Ð²Ð°\n";
 	cin >> arr [i];
 }
 int max = arr [0];
@@ -18,8 +18,8 @@ int min = arr [0];
    { if (arr[i] < min) min = arr[i];
    
 }     
-    cout<<endl<<"Ìàêñèìàëüíûé ýëåìåíò ìàññèâà: "<< max << endl;
-    cout <<"Ìèíèìàëüíûé ýëåìåíò ìàñèñâà: "<< min << endl;
+    cout<<endl<<"ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ Ð¼Ð°ÑÑÐ¸Ð²Ð°: "<< max << endl;
+    cout <<"ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ Ð¼Ð°ÑÐ¸ÑÐ²Ð°: "<< min << endl;
          getch();
 		return 0;
     
